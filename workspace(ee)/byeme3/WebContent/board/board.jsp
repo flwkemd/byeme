@@ -76,6 +76,9 @@
                         <a href="../main.jsp">About</a>
                     </li>
                     <li>
+                        <a href="../course/course.jsp">Course</a>
+                    </li>
+                    <li>
                         <a href="board.jsp">Board</a>
                     </li>
                       <%
