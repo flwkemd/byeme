@@ -53,6 +53,8 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+	<script language="JavaScript" src="course.js" ></script>
+
 </head>
 
 <body>
@@ -211,11 +213,6 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <iframe width="900" height="350" src="https://www.youtube.com/embed/D4Z2nEdzkdc" frameborder="0" allowfullscreen></iframe>
-							<script>
-								 jQuery( document ).ready( function( $ ) {
-									$( 'iframe[src^="https://www.youtube.com/"]' ).wrap( '<div class="youtubeWrap"></div>' );
-								 } );
-							</script>
                         </div>
                         <div class="carousel-item">
                             <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide">
@@ -238,7 +235,11 @@
 
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
+                        <form name="frm" action="course_view.jsp">
+                            <a href="#" onclick="data();">
+                            <input type="hidden" name="data" value="https://www.youtube.com/embed/D4Z2nEdzkdc">
+                            <img class="card-img-top img-fluid" src="https://i.ytimg.com/vi/D4Z2nEdzkdc/0.jpg" alt=""></a>
+                        	</form>
                             <div class="card-block">
                                 <h4 class="card-title"><a href="#">제목</h4>
                                 <h5>소제목</h5>
