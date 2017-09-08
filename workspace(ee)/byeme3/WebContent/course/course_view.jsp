@@ -57,8 +57,12 @@
 
 <%
 	String userId = null;
+	String id = null;
 	if(session.getAttribute("userId")!= null){
 		userId = (String)session.getAttribute("userId");
+		id = (String)session.getAttribute("id");
+	}else{
+		response.sendRedirect("course_view2.jsp");
 	}
 %>
 
@@ -85,7 +89,10 @@
                         <a href="../main.jsp">About</a>
                     </li>
                     <li>
-                        <a href="board.jsp">Board</a>
+                        <a href="course.jsp">Course</a>
+                    </li>
+                    <li>
+                        <a href="../board/board.jsp">Board</a>
                     </li>
                     <%
 				if(userId == null){
@@ -199,8 +206,8 @@
 			</thead>
 			<tbody>
 				<tr>	
-					<td colspan="8" style="height: 350px; vertical-align: middle;" align="left" > 
-					<iframe width="900" height="350" src="<%=data %>" frameborder="0" allowfullscreen></iframe></td>
+					<td colspan="8" style="height: 450px; vertical-align: middle;" > 
+					<iframe width="600" height="350" src="<%=data %>" frameborder="0" align="middle" allowfullscreen></iframe></td>
 				</tr>
 			</tbody>
 			</table>

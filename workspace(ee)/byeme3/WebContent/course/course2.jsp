@@ -104,6 +104,7 @@
                     <a href="#" class="list-group-item">Category 1</a>
                     <a href="#" class="list-group-item">Category 2</a>
                     <a href="#" class="list-group-item">Category 3</a>
+                    <a href="#" class="list-group-item">Category 4</a>
                 </div>
 
             </div>
@@ -119,13 +120,13 @@
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                            <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="First slide">
+                       		<iframe width="900" height="350" src="https://www.youtube.com/embed/wozQbgJdZoI" frameborder="0" allowfullscreen></iframe>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide">
+                            <iframe width="900" height="350" src="https://www.youtube.com/embed/m6P66ppnnqw" frameborder="0" allowfullscreen></iframe>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Third slide">
+                            <iframe width="900" height="350" src="https://www.youtube.com/embed/YoHv_4AVB_4" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -142,12 +143,15 @@
 
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
+                        <form name="frm" action="course_view.jsp">
+                            <a href="#" onclick="data();">
+                            <input type="hidden" name="data" value="https://www.youtube.com/embed/wozQbgJdZoI">
+                            <img class="card-img-top img-fluid" src="https://i.ytimg.com/vi/wozQbgJdZoI/0.jpg" alt=""></a>
                             <div class="card-block">
-                                <h4 class="card-title"><a href="#">제목</h4>
-                                <h5>소제목</h5>
-                                <p class="card-text">내용</p>
+                                <h4 class="card-title"><a href="#">자기 계발 시작 가이드</h4>
+                                <p class="card-text">자기 계발 시작 가이드 6 스텝</p>
                             </div>
+                        	</form>
                             <div class="card-footer">
                                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
                             </div>
@@ -155,12 +159,63 @@
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
+                        <form name="frm1" action="course_view.jsp">
+                            <a href="#" onclick="data1();">
+                            <input type="hidden" name="data" value="https://www.youtube.com/embed/m6P66ppnnqw">
+                            <img class="card-img-top img-fluid" src="https://i.ytimg.com/vi/m6P66ppnnqw/0.jpg" alt=""></a>
                             <div class="card-block">
-                                <h4 class="card-title"><a href="#">제목</h4>
-                                <h5>소제목</h5>
-                                <p class="card-text">내용</p>
+                                <h4 class="card-title"><a href="#">TED</h4>
+                                <p class="card-text">나는 왜 내편이 아닌가?</p>
                             </div>
+                        	</form>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100">
+                        <form name="frm2" action="course_view.jsp">
+                            <a href="#" onclick="data2();">
+                            <input type="hidden" name="data" value="https://www.youtube.com/embed/YoHv_4AVB_4">
+                            <img class="card-img-top img-fluid" src="https://i.ytimg.com/vi/YoHv_4AVB_4/0.jpg" alt=""></a>
+                            <div class="card-block">
+                                <h4 class="card-title"><a href="#">책 그림</h4>
+                                <p class="card-text">습관을 바꾸는 방법</p>
+                            </div>
+                        	</form>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9734; &#9734;</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100">
+                        <form name="frm3" action="course_view.jsp">
+                            <a href="#" onclick="data3();">
+                            <input type="hidden" name="data" value="https://www.youtube.com/embed/xybrVYunO8w">
+                            <img class="card-img-top img-fluid" src="https://i.ytimg.com/vi/xybrVYunO8w/0.jpg" alt=""></a>
+                            <div class="card-block">
+                                <h4 class="card-title"><a href="#">그릿</h4>
+                                <p class="card-text">당신은 열정적이지 않다.</p>
+                            </div>
+                        	</form>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card h-100">
+                        <form name="frm4" action="course_view.jsp">
+                            <a href="#" onclick="data4();">
+                            <input type="hidden" name="data" value="https://www.youtube.com/embed/wPU_P6I3ASg">
+                            <img class="card-img-top img-fluid" src="https://i.ytimg.com/vi/wPU_P6I3ASg/0.jpg" alt=""></a>
+                            <div class="card-block">
+                                <h4 class="card-title"><a href="#">책 리뷰</h4>
+                                <p class="card-text">결정적인 순간에 해내는 방법</p>
+                            </div>
+                        	</form>
                             <div class="card-footer">
                                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
                             </div>
@@ -168,57 +223,21 @@
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
+                        <form name="frm5" action="course_view.jsp">
+                            <a href="#" onclick="data5();">
+                            <input type="hidden" name="data" value="https://www.youtube.com/embed/1L3T9UcFxiA">
+                            <img class="card-img-top img-fluid" src="https://i.ytimg.com/vi/1L3T9UcFxiA/0.jpg" alt=""></a>
                             <div class="card-block">
-                                <h4 class="card-title"><a href="#">제목</h4>
-                                <h5>소제목</h5>
-                                <p class="card-text">내용</p>
+                                <h4 class="card-title"><a href="#">김미경의 파란새</h4>
+                                <p class="card-text">자기 계발 5대 키워드</p>
                             </div>
+                        	</form>
                             <div class="card-footer">
-                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
-                            <div class="card-block">
-                                <h4 class="card-title"><a href="#">제목</h4>
-                                <h5>소제목</h5>
-                                <p class="card-text">내용</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
-                            <div class="card-block">
-                                <h4 class="card-title"><a href="#">제목</h4>
-                                <h5>소제목</h5>
-                                <p class="card-text">내용</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
-                            <div class="card-block">
-                                <h4 class="card-title"><a href="#">제목</h4>
-                                <h5>소제목</h5>
-                                <p class="card-text">내용</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                            </div>
-                        </div>
-                    </div>
-
+                    
                 </div>
                 <!-- /.row -->
 
